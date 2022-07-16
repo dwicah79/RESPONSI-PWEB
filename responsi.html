@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>RESPONSI PWEB</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	</head>
+	<body>
+		
+		<!-- sidebar -->
+		<input type="checkbox" id="check">
+		<div class="sidebar">
+			<ul>
+				<li><a href="#about">Tentang Kami</a></li>
+				<li><a href="#Layanan">Layanan</a></li>
+				<li><a href="#Format">Format Order</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+
+		<!-- bagian header -->
+		<header>
+			<div class="container">
+				<h1><a href="">DWICAH LAUNDRY JOS Gandos</a></h1>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#Layanan">layanan</a></li>
+					<li><a href="#Format">Format Order</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+				<!-- menu mobile -->
+				<label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+			</div>
+		</header>
+
+		<!-- bagian banner -->
+		<section class="banner">
+			<div class="container1">
+				<div class="banner-left">
+					<img src="londri.png">
+					<h2>Hai...<br>
+						<span class="efek-ngetik"></span></h2>
+				</div>
+			</div>
+		</section>
+
+		<!-- bagian about -->
+		<section id="about">
+			<div class="container">
+				<h3>Tentang Kami</h3>
+				<p>Dwicah Laundry adalah layanan jasa pencucian baju,pencucian karpet <br>
+				pencucian tenda,dan berbagai jasa lainya. Kenapa harus Dwicah Laundry? karena<br>
+				Dwicah Laundry sudah berdiri sejak 2002 dan memiliki cabang 200 di Indonesia dan<br>
+				merupakan member dari ASLI (Asosiasi Laundry Indonesia).
+				</p>
+			</div>
+		</section>
+
+		<!-- bagian skills -->
+		<section id="Layanan">
+			<div class="container">
+				<h3>Layanan</h3>
+				<br>
+				<br>
+				<h4>Laundry Kiloan</h4>
+				<br>
+				<br>
+				<div class="bar">
+					<center><img src="kiloan.jpg" width="150px" height="100px"></center>
+					<br>
+					<p>
+						Jasa laundry baju kiloan di Kebumen dan sekitarnya,<br> 
+						cocok untuk pakaian sehari-hari. Sudah termasuk cuci,<br> gosok dan lipat. 
+						Bisa antar-jemput
+					</p>
+					<br>
+					<br>
+				</div>
+
+				<h4>Laundry Satuan</h4>
+				<br>
+				<br>
+				<div class="bar">
+					<center><img src="satuan.jpg" width="150px" height="100px"></center>
+					<br>
+					<p>
+						Jasa laundry satuan seperti kemeja, jas dll.  Sangat <br>
+						cocok untuk pakaian spesial anda. Pengerjaan yang detail,<br>
+						 bersih  dengan harga terjangkau.
+					</p>
+				</div>
+				<br>
+				<br>
+				<h4>Cuci Karpet</h4>
+				<br>
+				<br>
+				<div class="bar">
+					<center><img src="karpet.jpg" width="150px" height="100px"></center>
+					<br>
+					<p>
+						Kami mengerjakan cuci karpet rumah, masjid dan cuci karpet <br>
+						kantor wilayah Kebumen dan DI Yogyakarta, kami siap datang ke lokasi.
+					</p>
+				</div>
+				<br>
+				<br>
+				<h4>Cuci Sofa</h4>
+				<br>
+				<br>
+				<div class="bar">
+					<center><img src="sofa.jpg" width="150px" height="100px"></center>
+					<br>
+					<p>
+						Kami mengerjakan cuci sofa, kursi kantor, spring bed dll. <br>
+						Khusus Kabupaten Kebumen kami menerima order laundry panggilan.
+					</p>
+				</div>
+				<br>
+				<br>
+				<h4>Laundry Sepatu</h4>
+				<br>
+				<br>
+				<div class="bar">
+					<center><img src="sepatu.jpg" width="150px" height="100px"></center>
+					<br>
+					<p>
+						Ingin sepatu anda selalu bersih dan wangi, kami akan membersihkan <br>
+						dan memberikan perawatan pada sepatu kesayangan anda.
+					</p>
+					<br>
+
+				</div>
+			</div>
+		</section>
+
+
+		<!-- bagian format -->
+		<section id="Format">
+			<div class="container">
+				<h3>Format</h3>
+				<br>
+				<br>
+				<header>FORMAT ORDER JASA LAUNDRY</header>
+				<div align="center">
+					<form name="form1" method="post" action="order.php">
+						<table width="20%" border="0" align="center">
+							<tr>
+								<td>Nama Lengkap</td>
+								<td><input name="nama" type="text" id="nama"></td>
+							</tr>
+
+							<tr>
+								<td>Alamat</td>
+								<td><input name="alamat" type="text" id="alamat"></td>
+							</tr>
+
+							<tr>
+								<td>No Telp.</td>
+								<td><input name="kontak" type="text" id="kontak"></td> </tr>
+							</tr>
+
+							<tr>
+								<td>Pilih Jasa</td>
+								<td><select name="Jasa" id="Jasa">
+								<option>Kiloan</option>
+								<option>Satuan</option>
+								<option>Karpet</option>
+								<option>Sofa</option>
+								<option>Sepatu</option>
+								</select></td>
+							</tr>
+
+							<tr>
+								<td>Catatan</td>
+								<td><textarea name="catatan" id="catatan"></textarea></td> </textarea>
+								</tr>
+
+								<tr>
+									<td>&nbsp;</td>
+									<td><input type="submit" name="Submit" value="Kirim"><input type="reset" name="Submit2" value="Batal">
+									</td>
+								</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- bagian contact -->
+		<section id="contact">
+			<div class="container">
+				<h3>Contact</h3>
+				<div class="col-3">
+					<h4>Alamat</h4>
+					<p>Desa Adimulyo Rt 06/Rw 04 Kecamatan Adimulyo,Kabupaten Kebumen</p>
+				</div>
+
+				<div class="col-3">
+					<h4>Email</h4>
+					<p>dwilangitwibawa@gmail.com</p>
+				</div>
+
+				<div class="col-3">
+					<h4>Telp/Hp</h4>
+					<p>+62 8237 3324 537</p>
+				</div>	
+			</div>
+		</section>
+
+		<!-- bagian footer -->
+		<footer>
+			<div class="container">
+				<small>Copyright &copy; 2022 - Dwi Cahyo Nugroho.</small>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
