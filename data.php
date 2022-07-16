@@ -27,6 +27,6 @@
 
     echo "</table>";
     echo "</center>";
-    echo "<center><a href='responsi.html'>Kembali Ke halaman</a></center><br>";
+    echo "<center><a href='index.html'>Kembali Ke halaman</a></center><br>";
 
 ?>
